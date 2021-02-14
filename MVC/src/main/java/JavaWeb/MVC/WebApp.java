@@ -1,7 +1,9 @@
-package javaweb.servlet;
+package JavaWeb.MVC;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.ServletComponentScan;
+import org.springframework.web.servlet.DispatcherServlet;
 
 /**
  * @ClassName SecondApp
@@ -11,10 +13,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Version 1.0
  **/
 @SpringBootApplication
-public class SecondApp {
+@ServletComponentScan
+public class WebApp {
     public static void main(String[] args) {
-        SpringApplication.run(SecondApp.class,args);
+        SpringApplication.run(WebApp.class,args);
     }
+
     /*
     @Bean
     public ServletRegistrationBean getServletRegistrationBean(){

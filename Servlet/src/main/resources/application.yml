@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: FirstServletApp
+
+server:
+  port: 8081
+  servlet:
+    context-parameters: {"user":"admin","passwd":"1231414"}
+
