@@ -1,2 +1,11 @@
 server:
   port: 8082
+
+spring:
+  servlet:
+
+  resources:
+    static-locations: classpath:templates/,classpath:static/,classpath:WEB-INF/,file:D/llh
+  #mvc:
+#    view:
+#      suffix: .html

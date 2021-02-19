@@ -20,6 +20,11 @@
       <artifactId>spring-boot-starter-web</artifactId>
       <version>${myspring-boot.version}</version>
     </dependency>
+    <dependency>
+      <groupId>org.apache.tomcat.embed</groupId>
+      <artifactId>tomcat-embed-jasper</artifactId>
+      <version>8.5.39</version>
+    </dependency>
   </dependencies>
 
 </project>
