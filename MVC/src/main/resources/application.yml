@@ -1,2 +1,16 @@
 server:
   port: 8082
+
+
+#spring:
+#  datasource:
+#    type: com.alibaba.druid.pool.DruidDataSource
+#    druid:
+#      initial-size: 10
+#      max-active: 100
+#      min-idle: 10
+#    url:
+#    username:
+#    password:
+  
+

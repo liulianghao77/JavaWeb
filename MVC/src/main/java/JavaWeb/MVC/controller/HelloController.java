@@ -18,7 +18,8 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public void hello(){
-        log.info("hello dispatcherServerlet!");
+        //log.info("hello dispatcherServerlet!");
+        //throw new RuntimeException("hell runtimeException");
     }
 
 }
